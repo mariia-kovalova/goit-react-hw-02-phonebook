@@ -1,3 +1,5 @@
+import { Phonebook } from './Phonebook/Phonebook';
+
 export const App = () => {
-  return <>My app</>;
+  return <Phonebook />;
 };
