@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-export const StyledButton = styled.button`
+export const Button = styled.button`
   display: block;
   padding: 5px 10px;
 

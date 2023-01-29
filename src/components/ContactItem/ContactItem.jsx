@@ -1,4 +1,4 @@
-import { StyledButton } from 'components/GlobalStyles.styled';
+import { Button } from 'components/Button';
 import PropTypes from 'prop-types';
 import { Item } from './ContactItem.styled';
 
@@ -8,9 +8,9 @@ export const ContactItem = ({ id, name, number, onDeleteContact }) => {
       <p>
         {name}: {number}
       </p>
-      <StyledButton type="button" onClick={() => onDeleteContact(id)}>
+      <Button type="button" onClick={() => onDeleteContact(id)}>
         Delete
-      </StyledButton>
+      </Button>
     </Item>
   );
 };

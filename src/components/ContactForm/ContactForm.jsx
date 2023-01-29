@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import { nanoid } from 'nanoid';
 import { Form, Wrap } from './ContactForm.styled';
-import { StyledButton } from 'components/GlobalStyles.styled';
+import { Button } from 'components/Button';
 
 const INITIAL_STATE = {
   name: '',
@@ -59,7 +59,7 @@ export class ContactForm extends Component {
             required
           />
         </Wrap>
-        <StyledButton type="submit">Add contact</StyledButton>
+        <Button type="submit">Add contact</Button>
       </Form>
     );
   }
